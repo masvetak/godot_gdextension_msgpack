@@ -137,3 +137,10 @@ dmypy.json
 export/
 export.cfg
 export_presets.cfg
+
+# Cmake
+cmake-build-debug/
+CMakeLists.txt
+
+# Scons
+.sconsign.dblite
