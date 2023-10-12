@@ -144,3 +144,6 @@ CMakeLists.txt
 
 # Scons
 .sconsign.dblite
+
+# ObjectScript
+*.os
