@@ -1,0 +1,42 @@
+#ifndef MSGPACK_COMMON_HPP
+#define MSGPACK_COMMON_HPP
+
+#define MSGPACK_FORMAT_POSITIVE_FIXINT 0x00
+#define MSGPACK_FORMAT_FIXMAP          0x80
+#define MSGPACK_FORMAT_FIXARRAY        0x90
+#define MSGPACK_FORMAT_FIXSTR          0xA0
+#define MSGPACK_FORMAT_NIL             0xC0
+#define MSGPACK_FORMAT_NEVER_USED      0xC1
+#define MSGPACK_FORMAT_FALSE           0xC2
+#define MSGPACK_FORMAT_TRUE            0xC3
+#define MSGPACK_FORMAT_BIN_8           0xC4
+#define MSGPACK_FORMAT_BIN_16          0xC5
+#define MSGPACK_FORMAT_BIN_32          0xC6
+#define MSGPACK_FORMAT_EXT_8           0xC7
+#define MSGPACK_FORMAT_EXT_16          0xC8
+#define MSGPACK_FORMAT_EXT_32          0xC9
+#define MSGPACK_FORMAT_FLOAT_32        0xCA
+#define MSGPACK_FORMAT_FLOAT_64        0xCB
+#define MSGPACK_FORMAT_UINT_8          0xCC
+#define MSGPACK_FORMAT_UINT_16         0xCD
+#define MSGPACK_FORMAT_UINT_32         0xCE
+#define MSGPACK_FORMAT_UINT_64         0xCF
+#define MSGPACK_FORMAT_INT_8           0xD0
+#define MSGPACK_FORMAT_INT_16          0xD1
+#define MSGPACK_FORMAT_INT_32          0xD2
+#define MSGPACK_FORMAT_INT_64          0xD3
+#define MSGPACK_FORMAT_FIXEXT_1        0xD4
+#define MSGPACK_FORMAT_FIXEXT_2        0xD5
+#define MSGPACK_FORMAT_FIXEXT_4        0xD6
+#define MSGPACK_FORMAT_FIXEXT_8        0xD7
+#define MSGPACK_FORMAT_FIXEXT_16       0xD8
+#define MSGPACK_FORMAT_STR_8           0xD9
+#define MSGPACK_FORMAT_STR_16          0xDA
+#define MSGPACK_FORMAT_STR_32          0xDB
+#define MSGPACK_FORMAT_ARRAY_16        0xDC
+#define MSGPACK_FORMAT_ARRAY_32        0xDD
+#define MSGPACK_FORMAT_MAP_16          0xDE
+#define MSGPACK_FORMAT_MAP_32          0xDF
+#define MSGPACK_FORMAT_NEGATIVE_FIXINT 0xE0
+
+#endif //MSGPACK_COMMON_HPP
