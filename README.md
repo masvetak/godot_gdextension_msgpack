@@ -1,1 +1,1 @@
-# godot_gdextensions_msgpack
+# godot_gdextension_msgpack
